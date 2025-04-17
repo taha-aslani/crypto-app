@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 100px;
+  min-height: 1000px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.table thead {
+  border-bottom: 2px solid #fff;
+  margin-bottom: 20px;
+}
+
+.table th {
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.table th:nth-child(1) {
+  width: 15%;
+}
+
+.table th:nth-child(2) {
+  width: 20%;
+}
+
+.table th:nth-child(3) {
+  width: 15%;
+}
+
+.table th:nth-child(4) {
+  width: 15%;
+}
+
+.table th:nth-child(5) {
+  width: 20%;
+}
+
+.table th:nth-child(6) {
+  width: 15%;
+}
+
+.table tbody tr {
+  height: 80px;
+  border-bottom: 1px solid #22262e;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.loaderCell {
+  height: 200px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 20px;
+}
+
+.loaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+
+.symbol {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.symbol img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.symbol span {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #9fa6b7;
+}
+
+.success {
+  color: #57bc7c;
+}
+
+.error {
+  color: #d33636;
+}
+
+@media (max-width: 600px) {
+  .table {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .table td,
+  th {
+    padding: 0 10px;
+  }
+}

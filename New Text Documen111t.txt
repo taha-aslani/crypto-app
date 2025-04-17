@@ -1,0 +1,1 @@
+https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&per_page=20&page=1&x_cg_api_key=CG-Bm89JGBmeSbKNZyjuu5MYMWk
